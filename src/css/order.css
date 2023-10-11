@@ -125,7 +125,7 @@
     }
   
     .order-section {
-      background-image: url(../img/order/png-backgrownd/order-elements-tablet@1x.png);
+      background-image: url(/img/order/png-backgrownd/order-elements-tablet@1x.png);
       background-repeat: no-repeat;
       background-position: bottom left;
       margin: 0 auto;
@@ -195,11 +195,11 @@
     .order-green-girl {
       max-width: 1540px;
       margin-bottom: 150px;
-      background-image: url(../img/order/photo-bgr/photo-desktop-1280@1x.jpg);
+      background-image: url(/img/order/photo-bgr/photo-desktop-1280@1x.jpg);
     }
   
     .order-section {
-      background-image: url(../img/order/png-backgrownd/order-elements-desktop1280@1x.png);
+      background-image: url(/img/order/png-backgrownd/order-elements-desktop1280@1x.png);
     }
   
     .order-items-container {
@@ -237,20 +237,20 @@
     screen and (min-resolution: 2dppx) and (min-width: 1280px),
     screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
     .order-green-girl {
-      background-image: url(../img/order/photo-bgr/photo-desktop-1280@2x.jpg);
+      background-image: url(/img/order/photo-bgr/photo-desktop-1280@2x.jpg);
     }
   }
   
   @media screen and (min-width: 1440px) {
     .order-green-girl {   
       margin-bottom: 150px;
-      background-image: url(../img/order/photo-bgr/photo-desktop-1440@1x.jpg);
+      background-image: url(/img/order/photo-bgr/photo-desktop-1440@1x.jpg);
     }
     .order-section-title {
       min-width: 666px;
     }
     .order-section {
-      background-image: url(../img/order/png-backgrownd/order-elements-desktop1440@1x.png);
+      background-image: url(/img/order/png-backgrownd/order-elements-desktop1440@1x.png);
     }
   }
   
@@ -258,7 +258,7 @@
     screen and (min-resolution: 2dppx) and (min-width: 1440px),
     screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
     .order-green-girl {
-      background-image: url(../img/order/photo-bgr/photo-desktop-1440@2x.jpg);
+      background-image: url(/img/order/photo-bgr/photo-desktop-1440@2x.jpg);
     }
   }
   
