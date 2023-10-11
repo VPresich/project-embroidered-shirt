@@ -36,8 +36,8 @@
   display: none;
 } 
 
-.reviews-list-item-container:hover,
-.reviews-list-item-container:focus{
+.reviews-list-item:hover,
+.reviews-list-item:focus{
   border-color: var(--accent-color);
 }
 
@@ -98,11 +98,7 @@
 @media screen and (min-width: 1280px) {  
   .reviews{
     padding-bottom: 150px;
-  }
-  
-  .reviews-list-item-container{
-    width: auto;
-  }
+  } 
 
   .reviews-list-text{       
     max-width: 305px;    
