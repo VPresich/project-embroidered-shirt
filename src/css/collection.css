@@ -1,6 +1,6 @@
 @media screen and (max-width: 374px) {
     .collection {  
-      background-image: url('../img/collection/mobile/ornament-mobile.png');
+      background-image: url('/img/collection/mobile/ornament-mobile.png');
       background-repeat: no-repeat;    
       background-position: top 220px left;
       background-size: 16px 177px;
@@ -51,7 +51,7 @@
   }
   @media screen and (min-width: 375px) {
     .collection {
-      background-image: url('../img/collection/mobile/ornament-mobile.png');
+      background-image: url('/img/collection/mobile/ornament-mobile.png');
       background-repeat: no-repeat;
       background-position: top 345px left;
       background-size: 72px 177px;
@@ -62,7 +62,7 @@
     screen and (min-resolution: 2dppx) and (max-width: 767px),
     screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
     .collection {
-      background-image: url('../img/collection/mobile/ornament-mobile@2x.png');
+      background-image: url('/img/collection/mobile/ornament-mobile@2x.png');
       background-repeat: no-repeat;
     }
   }
@@ -88,7 +88,7 @@
     }
   
     .collection {
-      background-image: url('../img/collection/tablet/ornament-tablet.png');
+      background-image: url('/img/collection/tablet/ornament-tablet.png');
       background-repeat: no-repeat;
       background-position: top 264px left;
       background-size: 114px 300px;
@@ -99,7 +99,7 @@
     screen and (min-resolution: 2dppx) and (min-width: 768px),
     screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     .collection {
-      background-image: url('../img/collection/tablet/ornament-tablet@2x.png');
+      background-image: url('/img/collection/tablet/ornament-tablet@2x.png');
       background-repeat: no-repeat;
     }
   }
@@ -111,7 +111,7 @@
     }
   
     .collection {
-      background-image: url('../img/collection/desktop/ornament-desktop-one.png');
+      background-image: url('/img/collection/desktop/ornament-desktop-one.png');
       background-repeat: no-repeat;
       background-position: top 283px left;
       background-size: 169px 300px;
@@ -122,14 +122,14 @@
     screen and (min-resolution: 2dppx) and (min-width: 1280px),
     screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
     .collection {
-      background-image: url('../img/collection/desktop/ornament-desktop-one@2x.png');
+      background-image: url('/img/collection/desktop/ornament-desktop-one@2x.png');
       background-repeat: no-repeat;
     }
   }
   
   @media screen and (min-width: 1440px) {
     .collection {
-      background-image: url('../img/collection/desktop/ornament-desktop-two.png');
+      background-image: url('/img/collection/desktop/ornament-desktop-two.png');
       background-repeat: no-repeat;
       background-position: top 293px left;
       background-size: 169px 300px;
@@ -140,7 +140,7 @@
     screen and (min-resolution: 2dppx) and (min-width: 1440px),
     screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
     .collection {
-      background-image: url('../img/collection/desktop/ornament-desktop-two@2x.png');
+      background-image: url('/img/collection/desktop/ornament-desktop-two@2x.png');
       background-repeat: no-repeat;
     }
   }

@@ -9,7 +9,7 @@
       background-color: var(--accent-color);    
       transform: translateX(100vw); 
   
-      background-image: url('../img/mobile-menu/elements.svg');
+      background-image: url('/img/mobile-menu/elements.svg');
       background-repeat: no-repeat;
       background-attachment: fixed;  
       background-position: right bottom;   
@@ -93,7 +93,7 @@
       width: 378px;
       height: 1023px;
       
-      background-image: url('../img/mobile-menu/elements.svg');
+      background-image: url('/img/mobile-menu/elements.svg');
       background-repeat: no-repeat;
       background-attachment: fixed;  
       background-position: right bottom;   
