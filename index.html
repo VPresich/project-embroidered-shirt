@@ -2,84 +2,494 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/project-embroidered-shirt/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/project-embroidered-shirt/assets/favicon-c9e4afe2.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+
+    <title>Embroidered shirt</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     
-    <script type="module" crossorigin src="/project-embroidered-shirt/assets/index-c45ada6b.js"></script>
-    <link rel="stylesheet" href="/project-embroidered-shirt/assets/index-10c40100.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+
+    
+    
+    <script type="module" crossorigin src="/project-embroidered-shirt/assets/index-fe1038e5.js"></script>
+    <link rel="stylesheet" href="/project-embroidered-shirt/assets/index-c0eb2cd4.css">
   </head>
   <body>
-    <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
+    <header class="page-header">
+  <div class="container page-header-container">
+    <div class="header">
+      <nav class="page-navigation">
+        <a class="logotype link" href="./index.html">
+          <img class="logotype-icon" src="/project-embroidered-shirt/assets/logo-3a1f6045.svg" alt="logotype" width="44" height="39" />
+        </a>
+        <ul class="menu-header list">
+          <li class="menu-item-header">
+            <a class="menu-link-header link" href="#about">About us</a>
+          </li>
+          <li class="menu-item-header">
+            <a class="menu-link-header link" href="#collection">Our collection</a>
+          </li>
+          <li class="menu-item-header">
+            <a class="menu-link-header link" href="#order">Customer order</a>
+          </li>
+          <li class="menu-item-header">
+            <a class="menu-link-header link" href="#testimonials">TEstimonials</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="contacts-social-list-header">
+        <address class="contacts link">
+          <a href="tel:+380684439426" class="contact-link">+380 (68) 443-94-26</a>
+        </address>
 
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
+        <ul class="social-list-header list">
+          <li class="social-list-item">
+            <a class="social-list-link" target="_blank" href="https://www.facebook.com/goITclub/">
+              <svg class="social-list-icon" width="28" height="28" aria-label="facebook icon">
+                <use href="/project-embroidered-shirt/assets/sprite-1db3a43f.svg#id-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-item">
+            <a class="social-list-link" target="_blank" href="https://www.instagram.com/goitclub/">
+              <svg class="social-list-icon" width="28" height="28" aria-label="instagram icon">
+                <use href="/project-embroidered-shirt/assets/sprite-1db3a43f.svg#id-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-item">
+            <a class="social-list-link" target="_blank" href="https://www.youtube.com/c/GoIT">
+              <svg class="social-list-icon" width="28" height="28" aria-label="youtube icon">
+                <use href="/project-embroidered-shirt/assets/sprite-1db3a43f.svg#id-youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <button class="open-mobile-menu-btn js-open-menu-btn">
+      <svg class="open-mobile-menu-icon" width="36" height="24" aria-label="mobile menu open icon">
+        <use href="/project-embroidered-shirt/assets/sprite-1db3a43f.svg#id-nav"></use>
+      </svg>
+    </button>
+  </div>
 </header>
 
-
-    <section>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="/project-embroidered-shirt/assets/javascript-8dac5379.svg" alt="" />
-    </section>
-
-    <!-- Loads the specified .html file -->
-    <section class="vite-promo">
-  <div class="container">
-    <div class="wrapper">
-      <h2 class="title">
-        <span class="gradient">Vite</span>
-      </h2>
-      <p class="text">Next Generation Frontend Tooling</p>
-      <p class="tagline">
-        Get ready for a development environment that can finally catch up with
-        you.
-      </p>
-
-      <ul class="actions">
-        <li class="action">
-          <a
-            class="link"
-            href="https://vitejs.dev/guide/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Get Started</a
+    
+    <section class="hero section">
+    <div class="container">
+      <div class="hero-content-block">
+        <div class="hero-title-block">
+          <h1 class="main-title">
+            Reviving the traditional
+            <span class="accent-color">Ukrainian</span> artistry in every stitch.
+          </h1>
+          <a class="order-link link" href="#order">
+            order
+            <span class="order-link-icon-wrapper">
+              <svg
+                class="order-link-icon"
+                width="26"
+                height="10"
+                aria-label="order link icon"
+              >
+                <use href="/project-embroidered-shirt/assets/sprite-1db3a43f.svg#icon-vector"></use>
+              </svg>
+            </span>
+          </a>
+        </div>
+        <div>
+          <img
+            class="hero-girl-img"
+            srcset="/project-embroidered-shirt/assets/girl-desktop@1x-b3e1bb62.jpg 392w, /project-embroidered-shirt/assets/girl-desktop@2x-36e458fe.jpg 784w, /project-embroidered-shirt/assets/girl-tablet@1x-e2bab12e.jpg 413w, /project-embroidered-shirt/assets/girl-tablet@2x-841d8e5d.jpg 826w, /project-embroidered-shirt/assets/girl-mobile@1x-c4ec6b06.jpg 335w, /project-embroidered-shirt/assets/girl-mobile@2x-8a8ca3ff.jpg 670w"
+            sizes="(min-width:1280px) 392px, (min-width:768px) 413px,
+                 (max-width:767px) 335px"
+            src="/project-embroidered-shirt/assets/girl-mobile@1x-c4ec6b06.jpg"
+            alt="girl photo"
+          />
+        </div>
+      </div>
+      <div class="hero-handmade-block">
+        <div class="order-star-icon-wrapper">
+          <svg
+            class="order-star-icon"
+            width="52"
+            height="51"
+            aria-label="star icon"
           >
+            <use href="/project-embroidered-shirt/assets/sprite-1db3a43f.svg#icon-star"></use>
+          </svg>
+          <p class="hero-handmade-text">all embroidery is made by hand</p>
+        </div>
+  
+        <img
+          class="hero-handmade-example"
+          srcset="/project-embroidered-shirt/assets/example-@2x-ac7c1c5e.png 2x"
+          src="/project-embroidered-shirt/assets/example-@1x-026de7ce.png"
+          alt="handmade example photo"
+          width="142"
+          height="100"
+        />
+      </div>
+    </div>
+  </section>
+  
+    <section class="about-section section" id="about">  
+    <div class="about-section-container container"> 
+      <div class="about-content-wrapper">
+        <div class="about-section-text-container">
+          <h2 class="about-section-title">About Us</h2>
+          <p class="about-text">
+            The store "Vyshyvanka Vibes" is a place where traditional
+            Ukrainian vyshyvanka comes to life with new zest and style. Our
+            store offers a wide selection of high-quality and authentic
+            embroidery, which combines the elegance of traditional
+            needlework and modern design.
+          </p>
+          <p class="about-text second">
+            In "Vyshyvanka Vibes" you will find various models of
+            embroidery, from classic to modern, corresponding to the latest
+            fashion trends. Our embroidery is made using natural fabrics and
+            is embroidered by highly qualified craftsmen who convey the
+            beauty of Ukrainian culture in every detail.We believe that
+            vyshyvanka is not just clothing, but a symbol of national pride,
+            the heritage of our ancestors and a way of expressing one's
+            individuality. Each embroidery from "Vyshyvanka Vibes" has its
+            own unique history and symbolism, which gives it a special
+            meaning.
+          </p>
+        </div>
+        <img
+          class="about-img"
+          srcset="/project-embroidered-shirt/assets/girl-boy-example-desktop-1440@1x-ff5625e5.jpg 709w, /project-embroidered-shirt/assets/girl-boy-example-desktop-1440@2x-6a4f43e5.jpg 1418w, /project-embroidered-shirt/assets/girl-boy-example-desktop-1280@1x-d270b2e5.jpg 594w, /project-embroidered-shirt/assets/girl-boy-example-desktop-1280@2x-1450351e.jpg 1188w, /project-embroidered-shirt/assets/girl-boy-example-tablet@1x-40a6f591.jpg 704w, /project-embroidered-shirt/assets/girl-boy-example-tablet@2x-8b2ec037.jpg 1408w, /project-embroidered-shirt/assets/girl-boy-example-mobile@1x-095c2e38.jpg 335w, /project-embroidered-shirt/assets/girl-boy-example-mobile@2x-7ae54e75.jpg 670w"
+          sizes="(min-width: 1440px) 709px, (min-width: 1280px) 594px, (min-width: 768px) 704px,
+               (max-width: 767px) 335px"
+          src="./img/about/girl-boy-example-mobilet@1x.jpg"
+          alt="example photo"
+        />
+      </div>
+    </div>
+  </section>
+    <section class="collection section" id="collection">
+    <div class="container collection-container">
+      <h2 class="section-title section-title-collection">Our collection</h2>
+      <ul class="collection-list list">
+        <li class="collection-list-item">
+          <img
+            class="collection-list-img"
+            srcset="/project-embroidered-shirt/assets/w1-desktop-1440@1x-c525e456.jpg 400w, /project-embroidered-shirt/assets/w1-desktop-1440@2x-a94483d2.jpg 800w, /project-embroidered-shirt/assets/w1-desktop-1280@1x-efe16b0e.jpg 347w, /project-embroidered-shirt/assets/w1-desktop-1280@2x-d8afdca5.jpg 694w, /project-embroidered-shirt/assets/w1-tablet@1x-d28098e4.jpg 342w, /project-embroidered-shirt/assets/w1-tablet@2x-c3edbdf0.jpg 684w, /project-embroidered-shirt/assets/w1-mobile@1x-b5be0a6f.jpg 335w, /project-embroidered-shirt/assets/w1-mobile@2x-7cd38321.jpg 670w"
+            sizes="(min-width: 1440px) 400px, (min-width: 1280px) 347px, (min-width: 768px) 342px,
+               (max-width: 767px) 335px"
+            src="/project-embroidered-shirt/assets/w1-mobile@1x-b5be0a6f.jpg"
+            alt="Poltava women's blouse"
+          />
+          <h3 class="collection-list-name">
+            AUGUST Poltava women's blouseRING
+          </h3>
+          <p class="collection-list-price">3300 UAH</p>
         </li>
-        <li class="action">
-          <a
-            class="link"
-            href="https://github.com/vitejs/vite"
-            target="_blank"
-            rel="noopener noreferrer"
-            >View on GitHub</a
-          >
+
+        <li class="collection-list-item">
+          <img
+            class="collection-list-img"
+            srcset="/project-embroidered-shirt/assets/w2-desktop-1440@1x-fc31950b.jpg 400w, /project-embroidered-shirt/assets/w2-desktop-1440@2x-35bce485.jpg 800w, /project-embroidered-shirt/assets/w2-desktop-1280@1x-e96753ab.jpg 347w, /project-embroidered-shirt/assets/w2-desktop-1280@2x-ffa34200.jpg 694w, /project-embroidered-shirt/assets/w2-tablet@1x-551ba7fe.jpg 342w, /project-embroidered-shirt/assets/w2-tablet@2x-bcdf3fd9.jpg 684w, /project-embroidered-shirt/assets/w2-mobile@1x-113255e0.jpg 335w, /project-embroidered-shirt/assets/w2-mobile@2x-50ad06f7.jpg 670w"
+            sizes="(min-width:1440px) 400px, (min-width:1280px) 347px, (min-width:768px) 342px,
+               (max-width:767px) 335px"
+            src="/project-embroidered-shirt/assets/w2-mobile@1x-113255e0.jpg"
+            alt="Women's blouse Gorgany"
+          />
+          <h3 class="collection-list-name">Women's blouse Gorgany</h3>
+          <p class="collection-list-price">3350 UAH</p>
+        </li>
+        <li class="collection-list-item">
+          <img
+            class="collection-list-img"
+            srcset="/project-embroidered-shirt/assets/w3-desktop-1440@1x-8b41272d.jpg 400w, /project-embroidered-shirt/assets/w3-desktop-1440@2x-bbb4e8b5.jpg 800w, /project-embroidered-shirt/assets/w3-desktop-1280@1x-e62c0cae.jpg 347w, /project-embroidered-shirt/assets/w3-desktop-1280@2x-66e90ef8.jpg 694w, /project-embroidered-shirt/assets/w3-tablet@1x-dac32935.jpg 342w, /project-embroidered-shirt/assets/w3-tablet@2x-edf44ee3.jpg 684w, /project-embroidered-shirt/assets/w3-mobile@1x-f0bb4467.jpg 335w, /project-embroidered-shirt/assets/w3-mobile@2x-6b9a3c1a.jpg 670w"
+            sizes="(min-width:1440px) 400px, (min-width:1280px) 347px, (min-width:768px) 342px,
+               (max-width:767px) 335px"
+            src="/project-embroidered-shirt/assets/w3-mobile@1x-f0bb4467.jpg"
+            alt="Women's blouse Crimea"
+          />
+          <h3 class="collection-list-name">Women's blouse Crimea</h3>
+          <p class="collection-list-price">4000 UAH</p>
+        </li>
+
+        <li class="collection-list-item">
+          <img
+            class="collection-list-img"
+            srcset="/project-embroidered-shirt/assets/m1-desktop-1440@1x-22d42765.jpg 400w, /project-embroidered-shirt/assets/m1-desktop-1440@2x-8997e3dc.jpg 800w, /project-embroidered-shirt/assets/m1-desktop-1280@1x-a0522aa6.jpg 347w, /project-embroidered-shirt/assets/m1-desktop-1280@2x-308ed2c2.jpg 694w, /project-embroidered-shirt/assets/m1-tablet@1x-9b98e69a.jpg 342w, /project-embroidered-shirt/assets/m1-tablet@2x-af228cc2.jpg 684w, /project-embroidered-shirt/assets/m1-mobile@1x-191225cb.jpg 335w, /project-embroidered-shirt/assets/m1-mobile@2x-b63d0e79.jpg 670w"
+            sizes="(min-width:1440px) 400px, (min-width:1280px) 347px, (min-width:768px) 342px,
+               (max-width:767px) 335px"
+            src="/project-embroidered-shirt/assets/m1-mobile@1x-191225cb.jpg"
+            alt="Men's shirt Verkhovina"
+          />
+          <h3 class="collection-list-name">Men's shirt Verkhovina</h3>
+          <p class="collection-list-price">3100 UAH</p>
+        </li>
+
+        <li class="collection-list-item">
+          <img
+            class="collection-list-img"
+            srcset="/project-embroidered-shirt/assets/m2-desktop-1440@1x-051062fb.jpg 400w, /project-embroidered-shirt/assets/m2-desktop-1440@2x-fa7623eb.jpg 800w, /project-embroidered-shirt/assets/m2-desktop-1280@1x-0d023bcb.jpg 347w, /project-embroidered-shirt/assets/m2-desktop-1280@2x-c71489c1.jpg 694w, /project-embroidered-shirt/assets/m2-tablet@1x-78109355.jpg 342w, /project-embroidered-shirt/assets/m2-tablet@2x-c850bab9.jpg 684w, /project-embroidered-shirt/assets/m2-mobile@1x-b1753662.jpg 335w, /project-embroidered-shirt/assets/m2-mobile@2x-9a9bb042.jpg 670w"
+            sizes="(min-width:1440px) 400px, (min-width:1280px) 347px, (min-width:768px) 342px,
+               (max-width:767px) 335px"
+            src="/project-embroidered-shirt/assets/m2-mobile@1x-b1753662.jpg"
+            alt="Mountain men's shirt"
+          />
+          <h3 class="collection-list-name">Mountain men's shirt</h3>
+          <p class="collection-list-price">3300 UAH</p>
+        </li>
+
+        <li class="collection-list-item">
+          <img
+            class="collection-list-img"
+            srcset="/project-embroidered-shirt/assets/m3-desktop-1440@1x-79e570ca.jpg 400w, /project-embroidered-shirt/assets/m3-desktop-1440@2x-2c19f667.jpg 800w, /project-embroidered-shirt/assets/m3-desktop-1280@1x-00bc70c6.jpg 347w, /project-embroidered-shirt/assets/m3-desktop-1280@2x-6c9cfefa.jpg 794w, /project-embroidered-shirt/assets/m3-tablet@1x-acac9aa9.jpg 342w, /project-embroidered-shirt/assets/m3-tablet@2x-f1ecd57f.jpg 684w, /project-embroidered-shirt/assets/m3-mobile@1x-1d25cbd7.jpg 335w, /project-embroidered-shirt/assets/m3-mobile@2x-99ba816f.jpg 670w"
+            sizes="(min-width:1440px) 400px, (min-width:1280px) 347px, (min-width:768px) 342px,
+               (max-width:767px) 335px"
+            src="/project-embroidered-shirt/assets/m3-mobile@1x-1d25cbd7.jpg"
+            alt="Men's shirt Yasen"
+          />
+          <h3 class="collection-list-name">Men's shirt Yasen</h3>
+          <p class="collection-list-price">1700 UAH</p>
         </li>
       </ul>
     </div>
+  </section>
+    <section class="order-section section" id="order">
+    <div class="order-green-girl"></div>
+    <div class="container order-container">    
+      <div class="order-items-container">
+        <div class="order-item-one">
+          <h2 class="order-section-title">
+            <span class="accent-color">Your order</span> is our priority:
+            Personalized approach and quality of service
+          </h2>
+          <form class="order-form">
+            <div class="order-form-field-wrapper">
+              <input
+                class="order-form-input"
+                type="text"
+                id="user-name"
+                name="user_name"
+                placeholder="Enter your full name"
+                pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+                title="Valentyna"
+                required
+              />
+            </div>
+            <div class="order-form-field-wrapper">
+              <input
+                class="order-form-input"
+                type="email"
+                id="user-email"
+                placeholder="Enter your email"
+                name="user_email"
+                required
+              />
+            </div>
+            <div class="order-form-field-wrapper">
+              <textarea
+                class="order-form-input order-form-comment"
+                name="user_comment"
+                id="user-comment"
+                placeholder="Comments"
+              ></textarea>
+            </div>
+            <button class="order-form-submit-button" type="submit">
+              <span>Send</span>
+              <span class="order-form-button-icon-wrapper">
+                <svg
+                  class="order-form-button-icon"
+                  width="26"
+                  height="10"
+                  aria-label="order ink icon"
+                >
+                  <use href="/project-embroidered-shirt/assets/sprite-1db3a43f.svg#icon-vector"></use>
+                </svg>
+              </span>
+            </button>
+          </form>
+        </div>
+        <div class="order-img-container">
+          <img
+            class="order-img"
+            srcset="/project-embroidered-shirt/assets/order-desktop@1x-1decb609.jpg 320w, /project-embroidered-shirt/assets/order-desktop@2x-4af14017.jpg 640w, /project-embroidered-shirt/assets/order-tablet@1x-eb7be589.jpg 638w, /project-embroidered-shirt/assets/order-tablet@2x-31eef492.jpg 1276w"
+            sizes="(min-width:1280px) 524px, (min-width:768px) 638px"
+            src="../img/order/order-tablet@1x.jpg"
+            alt="Vyshyvanka photo"         
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  
+    <section class="reviews section" id="testimonials">
+    <div class="container reviews-container">
+      <h2 class="section-title reviews-section-title">Testimonials</h2>
+      <ul class="reviews-list list">
+        <li class="reviews-list-item">
+          <div class="reviews-list-item-container">
+            <div class="reviews-list-icon-wrap">
+              <img
+                class="reviews-list-avatar"           
+                srcset="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIAEgASAMBIgACEQEDEQH/xAAxAAACAwEBAQAAAAAAAAAAAAAABgQFBwIDAQEAAwEBAAAAAAAAAAAAAAAAAQIDAAT/2gAMAwEAAhADEAAAAMgCxZOHK8tVZfpn/wAdsZia9mxFUAw6bFy056MHvXsqNGlVUxmjUT2lKqaSTpl26KT8j2/pV++Zjx7TsQh2bzTeBfjzcB5V+h51LJ0NbXo0b6TmXzxDM7VmFrSMU5KSANjzAbnsMewCADb/xAAyEAACAgIBAQYDBQkAAAAAAAABAgMEABEFEhMhIjFBUQZCcRAgMkORFBUjJGGBocHR/9oACAEBAAE/APso8bdvydFaEt7t5KPqcqfA+9G1d0faNf8AZw/A/Fgd9qx+q/8AMufBwTZrXN+yyLr/ACMtUrNRumeMr7HzB+5x1WKeUGckRA9+vM/0ypyPHwRpFEgRB5ADE5GofzBgt1W/MXJXra/Ev65NXrzxOjBGRvMHOT401JCyd8RYgH2+xRtgMr2eOjRUELdwxLnHn8h8FqlrYrvleOKwwCQso9zlvjUhXtNllHoMSWoAR2jDLU9dlmRgxBJwjRyuiOxOiND1ORoB35WqyTH+Gp+vplPjqUA6rMnW/t6ZzcnNQ1lux05IafyNsAn2YgZ8O/Eqcj/LWItThe4+jjLnFwz9RiAVs5GnJXJDpljoD96n+xykrvIUROonKPEgkPOwIHyjyyIpGNdmQgHdoZDWE7gA9Ic62fTfrnIxci1SxVjs17EjOeiNlAAh8unOUh/cXPVSmkHgkZVPUE91xQSASdbzlBuNgwDDOSr9hIo3ve84hyLioCPGNYiWAAofX0xat4jxWXyxyNbjqhMtkiUqen1O8PL/ALVDVvR1pg9mAEKH8CkeecxdnuchYLvsCQ6zgb5l46JpJOtukeI5dvJpgU785WdZrXhHco1iO0bq6nTKQQfYjOP5E24Q4Hi8mA9DnKc1LRqRiNA0spIXZ7hrzJyKnJzMN2c3EeeJFAj1rfVknLRcNw9WjCgeZ4uos/yB8uy9vZM2lBOvwqFHhGvIZ8Pcy9WVKswUxSP7AEM2crbjqws7qQ/yD3OOzOzMx2Sdn7KlyepL1xHzGmHoRnL8lLclDdPSiqFUZx/J2qU0ksEgUtGVOxsEHJbVqw/XNMXfWtsfID0GN9O/FDEgr9QcvXp70vaTHyGlA8gPumJD6Z2K+5zs19vuf//EAB0RAQADAAIDAQAAAAAAAAAAAAEAAhEQEgMhcSD/2gAIAQIBAT8AXJ2mwePLZ3Id2VxM1+x71lXQZap2WL6lHbfJ6SVMqESWNhXIH4w5/8QAIBEAAgIBAwUAAAAAAAAAAAAAAAECESEDEDEgUWFxgf/aAAgBAwEBPwAooa2gsGCUJLJgapkeCKbaNVKMPZlMlyxOjTlX0lNyfgk66Lfff//Z , data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIAEgASAMBIgACEQEDEQH/xAAxAAACAwEBAQAAAAAAAAAAAAAABgQFBwIDAQEAAwEBAAAAAAAAAAAAAAAAAQIDAAT/2gAMAwEAAhADEAAAAMgCxZOHK8tVZfpn/wAdsZia9mxFUAw6bFy056MHvXsqNGlVUxmjUT2lKqaSTpl26KT8j2/pV++Zjx7TsQh2bzTeBfjzcB5V+h51LJ0NbXo0b6TmXzxDM7VmFrSMU5KSANjzAbnsMewCADb/xAAyEAACAgIBAQYDBQkAAAAAAAABAgMEABEFEhMhIjFBUQZCcRAgMkORFBUjJGGBocHR/9oACAEBAAE/APso8bdvydFaEt7t5KPqcqfA+9G1d0faNf8AZw/A/Fgd9qx+q/8AMufBwTZrXN+yyLr/ACMtUrNRumeMr7HzB+5x1WKeUGckRA9+vM/0ypyPHwRpFEgRB5ADE5GofzBgt1W/MXJXra/Ev65NXrzxOjBGRvMHOT401JCyd8RYgH2+xRtgMr2eOjRUELdwxLnHn8h8FqlrYrvleOKwwCQso9zlvjUhXtNllHoMSWoAR2jDLU9dlmRgxBJwjRyuiOxOiND1ORoB35WqyTH+Gp+vplPjqUA6rMnW/t6ZzcnNQ1lux05IafyNsAn2YgZ8O/Eqcj/LWItThe4+jjLnFwz9RiAVs5GnJXJDpljoD96n+xykrvIUROonKPEgkPOwIHyjyyIpGNdmQgHdoZDWE7gA9Ic62fTfrnIxci1SxVjs17EjOeiNlAAh8unOUh/cXPVSmkHgkZVPUE91xQSASdbzlBuNgwDDOSr9hIo3ve84hyLioCPGNYiWAAofX0xat4jxWXyxyNbjqhMtkiUqen1O8PL/ALVDVvR1pg9mAEKH8CkeecxdnuchYLvsCQ6zgb5l46JpJOtukeI5dvJpgU785WdZrXhHco1iO0bq6nTKQQfYjOP5E24Q4Hi8mA9DnKc1LRqRiNA0spIXZ7hrzJyKnJzMN2c3EeeJFAj1rfVknLRcNw9WjCgeZ4uos/yB8uy9vZM2lBOvwqFHhGvIZ8Pcy9WVKswUxSP7AEM2crbjqws7qQ/yD3OOzOzMx2Sdn7KlyepL1xHzGmHoRnL8lLclDdPSiqFUZx/J2qU0ksEgUtGVOxsEHJbVqw/XNMXfWtsfID0GN9O/FDEgr9QcvXp70vaTHyGlA8gPumJD6Z2K+5zoX239z//EAB0RAQADAAIDAQAAAAAAAAAAAAEAAhEQEgMhcSD/2gAIAQIBAT8AXJ2mwePLZ3Id2VxM1+x71lXQZap2WL6lHbfJ6SVMqESWNhXIH4w5/8QAIBEAAgIBAwUAAAAAAAAAAAAAAAECESEDEDEgUWFxgf/aAAgBAwEBPwAooa2gsGCUJLJgapkeCKbaNVKMPZlMlyxOjTlX0lNyfgk66Lfff//Z "
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIAEgASAMBIgACEQEDEQH/xAAxAAACAwEBAQAAAAAAAAAAAAAABgQFBwIDAQEAAwEBAAAAAAAAAAAAAAAAAQIDAAT/2gAMAwEAAhADEAAAAMgCxZOHK8tVZfpn/wAdsZia9mxFUAw6bFy056MHvXsqNGlVUxmjUT2lKqaSTpl26KT8j2/pV++Zjx7TsQh2bzTeBfjzcB5V+h51LJ0NbXo0b6TmXzxDM7VmFrSMU5KSANjzAbnsMewCADb/xAAyEAACAgIBAQYDBQkAAAAAAAABAgMEABEFEhMhIjFBUQZCcRAgMkORFBUjJGGBocHR/9oACAEBAAE/APso8bdvydFaEt7t5KPqcqfA+9G1d0faNf8AZw/A/Fgd9qx+q/8AMufBwTZrXN+yyLr/ACMtUrNRumeMr7HzB+5x1WKeUGckRA9+vM/0ypyPHwRpFEgRB5ADE5GofzBgt1W/MXJXra/Ev65NXrzxOjBGRvMHOT401JCyd8RYgH2+xRtgMr2eOjRUELdwxLnHn8h8FqlrYrvleOKwwCQso9zlvjUhXtNllHoMSWoAR2jDLU9dlmRgxBJwjRyuiOxOiND1ORoB35WqyTH+Gp+vplPjqUA6rMnW/t6ZzcnNQ1lux05IafyNsAn2YgZ8O/Eqcj/LWItThe4+jjLnFwz9RiAVs5GnJXJDpljoD96n+xykrvIUROonKPEgkPOwIHyjyyIpGNdmQgHdoZDWE7gA9Ic62fTfrnIxci1SxVjs17EjOeiNlAAh8unOUh/cXPVSmkHgkZVPUE91xQSASdbzlBuNgwDDOSr9hIo3ve84hyLioCPGNYiWAAofX0xat4jxWXyxyNbjqhMtkiUqen1O8PL/ALVDVvR1pg9mAEKH8CkeecxdnuchYLvsCQ6zgb5l46JpJOtukeI5dvJpgU785WdZrXhHco1iO0bq6nTKQQfYjOP5E24Q4Hi8mA9DnKc1LRqRiNA0spIXZ7hrzJyKnJzMN2c3EeeJFAj1rfVknLRcNw9WjCgeZ4uos/yB8uy9vZM2lBOvwqFHhGvIZ8Pcy9WVKswUxSP7AEM2crbjqws7qQ/yD3OOzOzMx2Sdn7KlyepL1xHzGmHoRnL8lLclDdPSiqFUZx/J2qU0ksEgUtGVOxsEHJbVqw/XNMXfWtsfID0GN9O/FDEgr9QcvXp70vaTHyGlA8gPumJD6Z2K+5zs19vuf//EAB0RAQADAAIDAQAAAAAAAAAAAAEAAhEQEgMhcSD/2gAIAQIBAT8AXJ2mwePLZ3Id2VxM1+x71lXQZap2WL6lHbfJ6SVMqESWNhXIH4w5/8QAIBEAAgIBAwUAAAAAAAAAAAAAAAECESEDEDEgUWFxgf/aAAgBAwEBPwAooa2gsGCUJLJgapkeCKbaNVKMPZlMlyxOjTlX0lNyfgk66Lfff//Z"
+                alt="Maria Tkachuk avatar"
+                width="64"
+                height="64"
+              />
+            </div>           
+            <h3 class="reviews-list-fullname">Maria Tkachuk</h3>
+            <p class="reviews-list-text">
+                I was pleasantly surprised by the variety of embroidery offered
+                by Vyshyvanka Vibes. They have models for every taste - from
+                classic to modern. I bought an embroidered dress to celebrate a
+                special occasion and received impeccable service and refinement
+                in every detail.
+            </p>            
+          </div>
+        </li>
+        <li class="reviews-list-item">
+          <div class="reviews-list-item-container">
+            <div class="reviews-list-icon-wrap">
+              <img
+                class="reviews-list-avatar"
+                srcset="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIAEgASAMBIgACEQEDEQH/xAAxAAACAwADAQAAAAAAAAAAAAAABwQFBgIDCAEBAAMBAAAAAAAAAAAAAAAAAAABAgP/2gAMAwEAAhADEAAAAFAG9qM413JJVK/PNW1R4+qfUqVRhANJm+n0Y48NNn9yV6xa1PLSLVgdF1SmXlE0BtExyItgI309Z6dC4ysvLar0BT4XW5NfnUWqTfYCxTfUzKXk0g6ibXaxtmUk5kkE4AAAfbwAoOIB2AAAB//EADcQAAICAQIEAgYIBgMAAAAAAAECAwQFABEGEiExE0EQFCIyUXEHFSBSYXKBghcjQqGisrHB0v/aAAgBAQABPwD0Ybh7L5ubw8fUeTY7M/ZE+bHWP+ht+QPk8uFP3IE3/wAm1/B3h0Rdb2Q5vzx/+NZT6HniSR6GWDEdkmTWVweTxDql2syBvdfujfIj7HBHBrZ+141ovHQjPUjvKfuDVOlUo1o61SBIYUGyog2Hov8AE2Fxs4gtWD4h7qg5uX82oJ61mBZ4JBIrD2SNcTVIZqk8bRq6BRIUI3BA7jXGnBzYCdJ6xaSjN1UnvGT/AEn0Y6lJfvVqkfvSyBd/gPM6xUUFCClUgQCKOPlA/wCzqC/t0boOwOrOQq1YXmnk5UXudidWrfC+Stz2JzXknk9o8xK64OzU1XPwU65Y1Z5jGU35gNZGtM5PqzKryxuh5u3Ua9VpZnCx17UfNHarhWH6f8jWWxs+KyVuhP78EhTf4jyP6jXAhgTLtK/QiPkUnyLnUeVp1LXPNzsFZk9gbgkaS8LJM1YllDHpt1GhI0taT2QX5Pl17jSZWtVi9YmSPx37sBtv+h7a4Klgu5QA+EXrVmkIHUh5Dtp/D505iOfry6xUtaPF1JZXVQgfYt07EjXGt2PIZuW6E2Eg2HyTXA9hIDkSYkdv5RHMu+23NqGwk9Om8VOq88u5MewDbb9ToWUpSMiU0VWOxIIG3zGqlyF4pOWRTKCF2B3A319J+GxePuUZ8eUiklQiWGMbD8H1wxmbuDvrbqtsSOR1PZ077aXjhXnr2CgKLv7JPXrq/wATGxQ9RjrRhAzlXLbkAtuBrPbH1YnbmPOT/bXB+Xr4y/ObI3ilrsv7x1XS8QmOqs9NdgoHOCvtEjuN9QJkbuQF9rJEco38Ajou+q9YwLyxkDc7k64xuGfM2QzbiIiMfs0k2uGppJ55aiRQuWTnXxB8NNjpR72Nh/a5GuIXT6waJIhH4ShWAbm9rudAkEEdxrh9LF8RlZeWCJiWTvzMfjqHdUA0shAO5Gs9I31tkF+FmX/Y6RjrgudUzkQYe/HIo/A7b6zOVhxtKSZyC/aNfvNqWR5ZHkdt3dizH4k+jGZOzjLAmgI+DqezDWKz9HIoPCfll84m6MNGQFTrKsTkrxLd7En+2g2xGsZbenfrWQu4ikDEdtx5jWTylnJ2DNOfwRB2UfYBKkEEgjzGq3EuZrgAWi4HlIA2pF8R3dj1Ykn5nQiQeX2P/8QAHxEBAAIDAAEFAAAAAAAAAAAAAQARAiExIAMQEjJB/9oACAECAQE/AFqXFZhnfe+3qL8gg6hd8ZzKHCZP1o/dzLaBoqY4gRwLdeFx75//xAAfEQACAQQCAwAAAAAAAAAAAAAAARECEBIxICEiQVH/2gAIAQMBAT8AIIGotTEMiWVJY7R6tSt9lM5P4N9nk9Oyunz/AP/Z , data:image/jpeg;base64,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 "
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIAEgASAMBIgACEQEDEQH/xAAxAAACAwADAQAAAAAAAAAAAAAABwQFBgIDCAEBAAMBAAAAAAAAAAAAAAAAAAABAgP/2gAMAwEAAhADEAAAAFAG9qM413JJVK/PNW1R4+qfUqVRhANJm+n0Y48NNn9yV6xa1PLSLVgdF1SmXlE0BtExyItgI309Z6dC4ysvLar0BT4XW5NfnUWqTfYCxTfUzKXk0g6ibXaxtmUk5kkE4AAAfbwAoOIB2AAAB//EADcQAAICAQIEAgYIBgMAAAAAAAECAwQFABEGEiExE0EQFCIyUXEHFSBSYXKBghcjQqGisrHB0v/aAAgBAQABPwD0Ybh7L5ubw8fUeTY7M/ZE+bHWP+ht+QPk8uFP3IE3/wAm1/B3h0Rdb2Q5vzx/+NZT6HniSR6GWDEdkmTWVweTxDql2syBvdfujfIj7HBHBrZ+141ovHQjPUjvKfuDVOlUo1o61SBIYUGyog2Hov8AE2Fxs4gtWD4h7qg5uX82oJ61mBZ4JBIrD2SNcTVIZqk8bRq6BRIUI3BA7jXGnBzYCdJ6xaSjN1UnvGT/AEn0Y6lJfvVqkfvSyBd/gPM6xUUFCClUgQCKOPlA/wCzqC/t0boOwOrOQq1YXmnk5UXudidWrfC+Stz2JzXknk9o8xK64OzU1XPwU65Y1Z5jGU35gNZGtM5PqzKryxuh5u3Ua9VpZnCx17UfNHarhWH6f8jWWxs+KyVuhP78EhTf4jyP6jXAhgTLtK/QiPkUnyLnUeVp1LXPNzsFZk9gbgkaS8LJM1YllDHpt1GhI0taT2QX5Pl17jSZWtVi9YmSPx37sBtv+h7a4Klgu5QA+EXrVmkIHUh5Dtp/D505iOfry6xUtaPF1JZXVQgfYt07EjXGt2PIZuW6E2Eg2HyTXA9hIDkSYkdv5RHMu+23NqGwk9Om8VOq88u5MewDbb9ToWUpSMiU0VWOxIIG3zGqlyF4pOWRTKCF2B3A319J+GxePuUZ8eUiklQiWGMbD8H1wxmbuDvrbqtsSOR1PZ077aXjhXnr2CgKLv7JPXrq/wATGxQ9RjrRhAzlXLbkAtuBrPbH1YnbmPOT/bXB+Xr4y/ObI3ilrsv7x1XS8QmOqs9NdgoHOCvtEjuN9QJkbuQF9rJEco38Ajou+q9YwLyxkDc7k64xuGfM2QzbiIiMfs0k2uGppJ55aiRQuWTnXxB8NNjpR72Nh/a5GuIXT6waJIhH4ShWAbm9rudAkEEdxrh9LF8RlZeWCJiWTvzMfjqHdUA0shAO5Gs9I31tkF+FmX/Y6RjrgudUzkQYe/HIo/A7b6zOVhxtKSZyC/aNfvNqWR5ZHkdt3dizH4k+jGZOzjLAmgI+DqezDWKz9HIoPCfll84m6MNGQFTrKsTkrxLd7En+2g2xGsZbenfrWQu4ikDEdtx5jWTylnJ2DNOfwRB2UfYBKkEEgjzGq3EuZrgAWi4HlIA2pF8R3dj1Ykn5nQiQeX2P/8QAHxEBAAIDAAEFAAAAAAAAAAAAAQARAiExIAMQEjJB/9oACAECAQE/AFqXFZhnfe+3qL8gg6hd8ZzKHCZP1o/dzLaBoqY4gRwLdeFx75//xAAfEQACAQQCAwAAAAAAAAAAAAAAARECEBIxICEiQVH/2gAIAQMBAT8AIIGotTEMiWVJY7R6tSt9lM5P4N9nk9Oyunz/AP/Z"
+                alt="Sergey Rybachok avatar"
+                width="64"
+                height="64"
+              />
+            </div>
+            <h3 class="reviews-list-fullname">Sergey Rybachok</h3>
+            <p class="reviews-list-text">
+                Vyshyvanka Vibes exceeds all my expectations! Their vyshyvanka
+                are simply masterpieces! I fell in love with the quality of the
+                materials and the skill of the artisans behind each product.
+                This is my favorite embroidery shop where I always find
+                something special and unique.
+            </p>
+          </div>
+        </li>
+        <li class="reviews-list-item">
+          <div class="reviews-list-item-container">
+            <div class="reviews-list-icon-wrap">
+              <img
+                class="reviews-list-avatar"
+                srcset="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIAEgASAMBIgACEQEDEQH/xAAzAAACAgMBAQAAAAAAAAAAAAAABgUHAgMEAQgBAQADAQEAAAAAAAAAAAAAAAQBAgMABf/aAAwDAQACEAMQAAAAqAGi1FyfmbDIqqIH6DX62pXW58iTq4Guedn11ZJd+2OeYMzO3VAwFNNNnrU4gdHjMNJAW1S9sETP6uhSM2e712RierOrHVXnq5yC8Fl8Qdmel/ITLCjW0U3blI3z1y0V6k2Zga1AO73qCJlIII7EC0AHd//EADMQAAIBAwEHAQUHBQAAAAAAAAECAwAEEQUGEhMhIkFRMRAUQmFxFSAyUmKBkSSisbLR/9oACAEBAAE/APZHDJKelf37VZbN3V18XqO1ahszcWKKzhyCTTWpyQD6eaeJ4/xL9zZ3QBqTtPckpaR+vmQ/lFPaLfakYLOMLChxhRyUCtPsltUweZqURSoVkUFfBq50HSZRIxi3Se4r3WKC/ntZMNGfTNbQ7OPpRjmhcy2z/H+VvB9kaF3VfJqwLTxW9lB0IsZA/gmrG2fTNISXdbisCzlFyRmoNqJobjckcToexUJKn7dxT30ZiVycAinlR4Tw3BPjNX7F9RXd5tyBFSQ2F3ZS211Im46AOM9/NXts1pdz27MGMbld4ehHY1aLGXYnlgcsmtllyXmc727uqv171ahZbdEI9Mqf2OKl2bsPehMY1Bzkgea2ltri5lt7a2AGFy1WOkalFMP6HDD0lQkVpmix3uoyzXGMRDAHYkVecOx0uWaKFTKpPMitrRHLPY3vDK+8W/PHlK0+BJ+KrdsVoFmsOn24K4LvvmoblbUTiUiMJM4OT+Y5H+av7qZAJreVXxjKAbzH6Vp3vlxK1xdRCNl6VHciri5yHjRt3A6pOyj/ALWn6vZW0skZUJ0Agd64/wBoadewgczv4B8GtqFaKy0aF/xos2f7aSeaHJibBPI1o2o3s8ds068Nt3mvkVdJmRJuW643HB5j5Gr2wZZ8LZgr6ho2Mf8ArWmWt5M5U3MwiQ9RLZVfkO5NXd1aRQy9YWKIFjn4mHc5rTNoTBqTXNzEsivybsR9Kh1RZZRLbMDHJy5VtddifVBGGzwYwhP6jzNI7I6upwykEHwRVlqySiGfOCG618ZooJ7UoT0stac+rXWqT2UlwDFEep8dRFXjra2hVMIirWqapJeyEBjwgeXz+ZoeladqUlgzkc1IPT+rsakd5Hd3OWYkk+SfZHK8Zyp+taRrlhqECrFJiUL1RtyarC4EG0GqI3IsUI/itXCXGlXY4m4eE2G8cqeMqPkaH3QSpBBII9CKW+uxOs5mZpB8THJNXG0mo3Fq9u4iCsMEgHNF2Ixnl9z/xAAeEQEAAQUAAwEAAAAAAAAAAAABAgADEBExEiFBYf/aAAgBAgEBPwBdVcvy3qNF+R1q3dJYvzd6wx2PurIpHWL4kt/Gn1jbaIULI29fdXbfmfpTHuz5VqAq14eXeZQelEInDP8A/8QAIREAAQQCAgIDAAAAAAAAAAAAAQACAxEQMSFREiNBcZH/2gAIAQMBAT8AUcLSLcjADpPjLcRN0aVK6IpqnNPdiA2K6TKdzaJ5+kfa6Q/ioDjpRyeBPRTHcCj8qV7g0N72rrWQSNFFzjs5/9k= , data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIAEgASAMBIgACEQEDEQH/xAAzAAACAgMBAQAAAAAAAAAAAAAABgUHAgMEAQgBAQADAQEAAAAAAAAAAAAAAAQBAgMABf/aAAwDAQACEAMQAAAAqAGi1FyfmbDIqqIH6DX62pXW58iTq4Guedn11ZJd+2OeYMzO3VAwFNNNnrU4gdHjMNJAW1S9sETP6uhSM2e712RierOrHVXnq5yC8Fl8Qdmel/ITLCjW0U3blI3z1y0V6k2Zga1AO73qCJlIII7EC0AHd//EADMQAAIBAwEHAQUHBQAAAAAAAAECAwAEEQUGEhMhIkFRMRAUQmFxFSAyUmKBkSSisbLR/9oACAEBAAE/APZHDJKelf37VZbN3V18XqO1ahszcWKKzhyCTTWpyQD6eaeJ4/xL9zZ3QBqTtPckpaR+vmQ/lFPaLfakYLOMLChxhRyUCtPsltUweZqURSoVkUFfBq50HSZRIxi3Se4r3WKC/ntZMNGfTNbQ7OPpRjmhcy2z/H+VvB9kaF3VfJqwLTxW9lB0IsZA/gmrG2fTNISXdbisCzlFyRmoNqJobjckcToexUJKn7dxT30ZiVycAinlR4Tw3BPjNX7F9RXd5tyBFSQ2F3ZS211Im46AOM9/NXts1pdz27MGMbld4ehHY1aLGXYnlgcsmtllyXmc727uqv171ahZbdEI9Mqf2OKl2bsPehMY1Bzkgea2ltri5lt7a2AGFy1WOkalFMP6HDD0lQkVpmix3uoyzXGMRDAHYkVecOx0uWaKFTKpPMitrRHLPY3vDK+8W/PHlK0+BJ+KrdsVoFmsOn24K4LvvmoblbUTiUiMJM4OT+Y5H+av7qZAJreVXxjKAbzH6Vp3vlxK1xdRCNl6VHciri5yHjRt3A6pOyj/ALWn6vZW0skZUJ0Agd64/wBoadewgczv4B8GtqFaKy0aF/xos2f7aSeaHJibBPI1o2o3s8ds068Nt3mvkVdJmRJuW643HB5j5Gr2wZZ8LZgr6ho2Mf8ArWmWt5M5U3MwiQ9RLZVfkO5NXd1aRQy9YWKIFjn4mHc5rTNoTBqTXNzEsivybsR9Kh1RZZRLbMDHJy5VtddifVBGGzwYwhP6jzNI7I6upwykEHwRVlqySiGfOCG618ZooJ7UoT0stac+rXWqT2UlwDFEep8dRFXjra2hVMIirWqapJeyEBjwgeXz+ZoeladqUlgzkc1IPT+rsakd5Hd3OWYkk+SfZHK8Zyp+taRrlhqECrFJiUL1RtyarC4EG0GqI3IsUI/itXCXGlXY4m4eE2G8cqeMqPkaH3QSpBBII7ilvroTiczM0g+JjkmrjaTULi1e3cRBWGCQDmi7EYz9z//EAB4RAQABBQADAQAAAAAAAAAAAAECAAMQETESIUFh/9oACAECAQE/AF1Vy/Leo0X5HWrd0li/N3rDHY+6sikdYviS38afWNtohQsjb191dt+Z+lMe7PlWoCrXh5d5lB6UQicM/wD/xAAhEQABBAICAgMAAAAAAAAAAAABAAIDERAxIVESI0Fxkf/aAAgBAwEBPwBRwtItyMAOk+MtxE3RpUroimqc092IDYrpMp3Nonn6R9rpD+KgOOlHJ4E9FMdwKPypXuDQ3vautZBI0UXOOzn/2Q== "
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIAEgASAMBIgACEQEDEQH/xAAzAAACAgMBAQAAAAAAAAAAAAAABgUHAgMEAQgBAQADAQEAAAAAAAAAAAAAAAQBAgMABf/aAAwDAQACEAMQAAAAqAGi1FyfmbDIqqIH6DX62pXW58iTq4Guedn11ZJd+2OeYMzO3VAwFNNNnrU4gdHjMNJAW1S9sETP6uhSM2e712RierOrHVXnq5yC8Fl8Qdmel/ITLCjW0U3blI3z1y0V6k2Zga1AO73qCJlIII7EC0AHd//EADMQAAIBAwEHAQUHBQAAAAAAAAECAwAEEQUGEhMhIkFRMRAUQmFxFSAyUmKBkSSisbLR/9oACAEBAAE/APZHDJKelf37VZbN3V18XqO1ahszcWKKzhyCTTWpyQD6eaeJ4/xL9zZ3QBqTtPckpaR+vmQ/lFPaLfakYLOMLChxhRyUCtPsltUweZqURSoVkUFfBq50HSZRIxi3Se4r3WKC/ntZMNGfTNbQ7OPpRjmhcy2z/H+VvB9kaF3VfJqwLTxW9lB0IsZA/gmrG2fTNISXdbisCzlFyRmoNqJobjckcToexUJKn7dxT30ZiVycAinlR4Tw3BPjNX7F9RXd5tyBFSQ2F3ZS211Im46AOM9/NXts1pdz27MGMbld4ehHY1aLGXYnlgcsmtllyXmc727uqv171ahZbdEI9Mqf2OKl2bsPehMY1Bzkgea2ltri5lt7a2AGFy1WOkalFMP6HDD0lQkVpmix3uoyzXGMRDAHYkVecOx0uWaKFTKpPMitrRHLPY3vDK+8W/PHlK0+BJ+KrdsVoFmsOn24K4LvvmoblbUTiUiMJM4OT+Y5H+av7qZAJreVXxjKAbzH6Vp3vlxK1xdRCNl6VHciri5yHjRt3A6pOyj/ALWn6vZW0skZUJ0Agd64/wBoadewgczv4B8GtqFaKy0aF/xos2f7aSeaHJibBPI1o2o3s8ds068Nt3mvkVdJmRJuW643HB5j5Gr2wZZ8LZgr6ho2Mf8ArWmWt5M5U3MwiQ9RLZVfkO5NXd1aRQy9YWKIFjn4mHc5rTNoTBqTXNzEsivybsR9Kh1RZZRLbMDHJy5VtddifVBGGzwYwhP6jzNI7I6upwykEHwRVlqySiGfOCG618ZooJ7UoT0stac+rXWqT2UlwDFEep8dRFXjra2hVMIirWqapJeyEBjwgeXz+ZoeladqUlgzkc1IPT+rsakd5Hd3OWYkk+SfZHK8Zyp+taRrlhqECrFJiUL1RtyarC4EG0GqI3IsUI/itXCXGlXY4m4eE2G8cqeMqPkaH3QSpBBII9CKW+uxOs5mZpB8THJNXG0mo3Fq9u4iCsMEgHNF2Ixnl9z/xAAeEQEAAQUAAwEAAAAAAAAAAAABAgADEBExEiFBYf/aAAgBAgEBPwBdVcvy3qNF+R1q3dJYvzd6wx2PurIpHWL4kt/Gn1jbaIULI29fdXbfmfpTHuz5VqAq14eXeZQelEInDP8A/8QAIREAAQQCAgIDAAAAAAAAAAAAAQACAxEQMSFREiNBcZH/2gAIAQMBAT8AUcLSLcjADpPjLcRN0aVK6IpqnNPdiA2K6TKdzaJ5+kfa6Q/ioDjpRyeBPRTHcCj8qV7g0N72rrWQSNFFzjs5/9k="
+                alt="Natalia Chatuk avatar"
+                width="64"
+                height="64"
+              />
+            </div>          
+            <h3 class="reviews-list-fullname">Natalia Chatuk</h3>
+            <p class="reviews-list-text">
+                Vyshyvanka Vibes is a real find for everyone who appreciates
+                Ukrainian culture. Their embroidery reflects the spirit and
+                traditions of our people. I not only buy embroidered shirts for
+                myself, but also give them to my friends abroad as a symbol of
+                our beauty and national pride.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>  
 
-    <div class="thumb">
-      <!-- Path to images as from index.html file -->
-      <img
-        class="pic"
-        src="/project-embroidered-shirt/assets/vite-logo-51249ca9.png"
-        alt="Vite logo"
-        width="640"
-        height="640"
-      />
+
+    <footer class="footer-page">
+    <div class="container footer-page-container">
+      <nav class="footer-navigation">
+        <div class="footer-menu list">
+          <ul class="about-menu-wrapper">
+            <li class="footer-menu-item">
+              <a class="footer-menu-item-link link" href="#about">About us</a>
+            </li>
+            <li class="footer-menu-item">
+              <a class="footer-menu-item-link link" href="#collection"
+                >Our collection</a
+              >
+            </li>
+          </ul>
+          <ul class="customers-menu-wrapper">
+            <li class="footer-menu-item">
+              <a class="footer-menu-item-link link" href="#order"
+                >Customer order</a
+              >
+            </li>
+            <li class="footer-menu-item">
+              <a class="footer-menu-item-link link" href="#testimonials"
+                >TEstimonials</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+  
+      <h2 class="footer-title footer-title-wrapper">
+        A touch of
+        <span class="accent-color accent-title">Ukrainian</span> culture in every
+        embroidery
+      </h2>
+  
+      <div class="footer-bgr-container"></div>
+    </div>
+  </footer>
+  
+    <div class="mobile-menu js-mobile-menu">
+    <div class="mobile-menu-container">
+      <button class="mobile-menu-close-btn js-mobile-menu-close-btn">
+        <svg
+          class="mobile-menu-close-icon"
+          width="36"
+          height="36"
+          aria-label="mobile menu close icon"
+        >
+          <use href="/project-embroidered-shirt/assets/sprite-1db3a43f.svg#icon-close"></use>
+        </svg>
+      </button>
+  
+      <address class="mobile-contact link">
+        <a class="mobile-contact-link" href="tel:+380684439426"
+          >+380 (68) 443-94-26</a>
+      </address>
+  
+      <nav class="mobile-navigation">
+        <ul class="mobile-nav-list list">
+          <li class="mobile-nav-item">
+            <a class="mobile-nav-item-link link" href="#about">About us</a>
+          </li>
+          <li class="mobile-nav-item">
+            <a class="mobile-nav-item-link link" href="#collection"
+              >Our collection</a
+            >
+          </li>
+          <li class="mobile-nav-item">
+            <a class="mobile-nav-item-link link" href="#order"
+              >Customer order</a
+            >
+          </li>
+          <li class="mobile-nav-item">
+            <a class="mobile-nav-item-link link" href="#testimonials"
+              >Testimonials</a
+            >
+          </li>
+        </ul>
+      </nav>    
     </div>
   </div>
-</section>
-
-
+    
     
   </body>
 </html>
